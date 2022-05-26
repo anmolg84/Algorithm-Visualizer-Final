@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import { NavBar } from "./components/NavBar";
-import { Footer } from "./components/Footer";
 import { Controller } from "./components/Controller";
 import { AlgoDisplay } from "./components/AlgoDisplay";
 
@@ -18,7 +17,6 @@ export default function App() {
       <NavBar />
       <Controller />
       <AlgoDisplay />
-//       <Footer />
     </Container>
   );
 }
